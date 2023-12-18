@@ -1,0 +1,12 @@
+.borde {
+    border-top: 1px solid black;
+    position: relative;
+  }
+  
+  .titulo {
+    position: absolute;
+    top: -1.5em;
+    left: 0;
+    background: white;
+    padding-right: 0.5em;
+  }

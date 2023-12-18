@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="scr/styles.css">
+</head>
+
+<body>
+
+<h1>Vení al Gym!</h1>  
+
+<section>
+
+<div class="borde">
+  <span class="titulo">Datos Personales</span>  
+</div>
+
+  <form>
+    Nombre: <input type="text" name="nombre"><br>
+    Apellido: <input type="text" name="apellido"><br>
+    Documento: <input type="text" name="documento"><br>
+    Nacionalidad: <select name="nacionalidad">
+      <option>--Seleccionar--</option>
+      <option>Argentina</option>
+      <option>Chile</option>
+      <option>Uruguay</option>
+    </select><br>
+    Contanos un poco de vos... <textarea name="info"></textarea><br>
+    Sexo: <br>
+    <input type="radio" name="sexo" value="femenino"> Femenino <br>
+    <input type="radio" name="sexo" value="masculino"> Masculino <br>
+    <input type="radio" name="sexo" value="otro"> Otro
+  </form>
+
+</section>
+
+<section style="margin-top: 1px;">
+  
+<div class="borde">
+  <span class="titulo">Datos de Contacto</span>
+</div>
+
+  Teléfono: <input type="text" name="telefono"><br>
+  Dirección de correo electrónico: <input type="email" name="email"><br>
+  
+</section>
+
+<section style="margin-top: 1px;">
+
+<div class="borde">
+  <span class="titulo">Actividades</span>  
+</div>
+
+  <p>Por favor, indicá cuáles actividades te interesan.</p>
+  
+  <div>
+    <b>Sede Palermo:</b><br>
+    <input type="checkbox" name="basquet"> Básquet <br>
+    <input type="checkbox" name="boxeo"> Boxeo <br>
+    <input type="checkbox" name="futbol"> Fútbol <br>
+    <input type="checkbox" name="tenis"> Tenis
+  </div>
+  
+  <div>
+    <b>Sede Rosario:</b><br>
+    <input type="checkbox" name="basquet"> Básquet <br>
+    <input type="checkbox" name="futbol"> Fútbol <br>
+    <input type="checkbox" name="rugby"> Rugby <br>
+    <input type="checkbox" name="voley"> Voley
+  </div>
+
+  <input type="checkbox" name="condiciones"> Acepto las condiciones<br>
+  <input type="checkbox" name="novedades"> Deseo recibir novedades<br>
+
+  <p>*campo obligatorio</p>
+
+  <button type="submit">Iniciar afiliación</button>
+  <button type="reset">Restablecer</button>
+  
+</section>
+
+</body>
+</html>
